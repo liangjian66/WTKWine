@@ -20,6 +20,26 @@
     ///  新建工程
     //// 我又要新建 工程了
     ///afsdkfj;aslkdfjas;
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+
+
+
+
     ///
     return YES;
 }
@@ -40,6 +60,14 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    
 }
 
 

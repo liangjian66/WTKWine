@@ -20,6 +20,26 @@
     ///  新建工程
     //// 我又要新建 工程了
     ///afsdkfj;aslkdfjas;
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+    NSLog(@"fasfdsdadf");
+
+
+
+
     ///
     return YES;
 }

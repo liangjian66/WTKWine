@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187D1175DD9DA2DADEBFC12B /* libPods-WTKWineNewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6378E3B48BAC38CF2AF3515B /* libPods-WTKWineNewTests.a */; };
-		4304FC64E28480ED839A015B /* libPods-WTKWineNewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DD7AEFA811FB6F98CE00F2 /* libPods-WTKWineNewUITests.a */; };
+		03C957C001092627CE7C8646 /* Pods_WTKWineNewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */; };
+		097B300DA60214779E3F1CFE /* Pods_WTKWineNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A666B90EE7EF4E046EED1 /* Pods_WTKWineNew.framework */; };
 		9BF55A951EA7813400CF3E9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A941EA7813400CF3E9F /* main.m */; };
 		9BF55A981EA7813400CF3E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A971EA7813400CF3E9F /* AppDelegate.m */; };
 		9BF55A9B1EA7813400CF3E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A9A1EA7813400CF3E9F /* ViewController.m */; };
@@ -17,7 +17,7 @@
 		9BF55AA31EA7813400CF3E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF55AA11EA7813400CF3E9F /* LaunchScreen.storyboard */; };
 		9BF55AAE1EA7813400CF3E9F /* WTKWineNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55AAD1EA7813400CF3E9F /* WTKWineNewTests.m */; };
 		9BF55AB91EA7813400CF3E9F /* WTKWineNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55AB81EA7813400CF3E9F /* WTKWineNewUITests.m */; };
-		9EE3914CDC4E317882EB6043 /* libPods-WTKWineNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33737D0D9B03598C63D42C4 /* libPods-WTKWineNew.a */; };
+		C0EE2974930E9403F0542066 /* Pods_WTKWineNewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44342412BC62666CBC79871F /* Pods_WTKWineNewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,8 @@
 		047737C7E54DD182E1AC647F /* Pods-WTKWineNewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewTests/Pods-WTKWineNewTests.release.xcconfig"; sourceTree = "<group>"; };
 		05CB1A91AB83283675EA8A6E /* Pods-WTKWineNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNew/Pods-WTKWineNew.debug.xcconfig"; sourceTree = "<group>"; };
 		41522E3E3B1B254173B23BAC /* Pods-WTKWineNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNew.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNew/Pods-WTKWineNew.release.xcconfig"; sourceTree = "<group>"; };
-		6378E3B48BAC38CF2AF3515B /* libPods-WTKWineNewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTKWineNewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44342412BC62666CBC79871F /* Pods_WTKWineNewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3A666B90EE7EF4E046EED1 /* Pods_WTKWineNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F015573FE72969E3714826 /* Pods-WTKWineNewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewUITests/Pods-WTKWineNewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BF55A901EA7813400CF3E9F /* WTKWineNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKWineNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF55A941EA7813400CF3E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,8 +60,7 @@
 		9BF55AB41EA7813400CF3E9F /* WTKWineNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKWineNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF55AB81EA7813400CF3E9F /* WTKWineNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKWineNewUITests.m; sourceTree = "<group>"; };
 		9BF55ABA1EA7813400CF3E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2DD7AEFA811FB6F98CE00F2 /* libPods-WTKWineNewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTKWineNewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B33737D0D9B03598C63D42C4 /* libPods-WTKWineNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTKWineNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D218164F20E75014410D774B /* Pods-WTKWineNewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewUITests/Pods-WTKWineNewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3866D0A4AD1DC0FC48EF24C /* Pods-WTKWineNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewTests/Pods-WTKWineNewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE3914CDC4E317882EB6043 /* libPods-WTKWineNew.a in Frameworks */,
+				097B300DA60214779E3F1CFE /* Pods_WTKWineNew.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187D1175DD9DA2DADEBFC12B /* libPods-WTKWineNewTests.a in Frameworks */,
+				C0EE2974930E9403F0542066 /* Pods_WTKWineNewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4304FC64E28480ED839A015B /* libPods-WTKWineNewUITests.a in Frameworks */,
+				03C957C001092627CE7C8646 /* Pods_WTKWineNewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +96,9 @@
 		54B0E5A0C6A8F5B7338C164D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B33737D0D9B03598C63D42C4 /* libPods-WTKWineNew.a */,
-				6378E3B48BAC38CF2AF3515B /* libPods-WTKWineNewTests.a */,
-				A2DD7AEFA811FB6F98CE00F2 /* libPods-WTKWineNewUITests.a */,
+				5C3A666B90EE7EF4E046EED1 /* Pods_WTKWineNew.framework */,
+				44342412BC62666CBC79871F /* Pods_WTKWineNewTests.framework */,
+				B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

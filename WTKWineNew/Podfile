@@ -16,6 +16,9 @@ target 'WTKWineNew' do
     inherit! :search_paths
     # Pods for testing
   end
+  use_frameworks!
   pod “AFNetworking”
+  pod “ReactiveCocoa”
+
 
 end

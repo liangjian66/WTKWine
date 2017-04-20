@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '209EBC0579CC9B255E657DA3375C7728'
+               BlueprintIdentifier = '0E31D87D86B61C2F55261AC5D3B5EC80'
                BlueprintName = 'Pods-WTKWineNewUITests'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-WTKWineNewUITests.a'>
+               BuildableName = 'Pods-WTKWineNewUITests.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

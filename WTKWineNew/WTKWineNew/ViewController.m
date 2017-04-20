@@ -48,16 +48,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)text{
 
-
-}
-
-
-- (void)tesss{
-    
-    
-}
 
 
 @end

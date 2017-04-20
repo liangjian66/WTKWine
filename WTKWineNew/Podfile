@@ -19,6 +19,15 @@ target 'WTKWineNew' do
   use_frameworks!
   pod “AFNetworking”
   pod “ReactiveCocoa”
+  pod “DZNEmptyDataSet”
+  pod “Masonry”
+  pod “MJRefresh”
+  pod “Reachability”
+  pod “RESideMenu”
+  pod “SDWebImage”
+  pod “SVProgressHUD”
+  pod “MJExtension”
+
 
 
 end

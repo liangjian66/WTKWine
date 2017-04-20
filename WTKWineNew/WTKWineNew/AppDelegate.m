@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WTKCommon.h"
 @interface AppDelegate ()
 
 @end
@@ -16,31 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    ///  新建工程
-    //// 我又要新建 工程了
-    ///afsdkfj;aslkdfjas;
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-    NSLog(@"fasfdsdadf");
-
-
-
-
-    ///
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    //    设置键盘
+    IQKeyboardManager *manager          = [IQKeyboardManager sharedManager];
+    manager.enable                      = YES;
+    manager.shouldResignOnTouchOutside  = YES;
+    manager.enableAutoToolbar           = NO;
+    
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
     return YES;
 }
 

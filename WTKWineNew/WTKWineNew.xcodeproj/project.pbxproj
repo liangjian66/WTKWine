@@ -34,6 +34,27 @@
 		9BF55AA31EA7813400CF3E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF55AA11EA7813400CF3E9F /* LaunchScreen.storyboard */; };
 		9BF55AAE1EA7813400CF3E9F /* WTKWineNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55AAD1EA7813400CF3E9F /* WTKWineNewTests.m */; };
 		9BF55AB91EA7813400CF3E9F /* WTKWineNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55AB81EA7813400CF3E9F /* WTKWineNewUITests.m */; };
+		9BFDA8EC1EA9AA7200BFD2FD /* UIApplication+WTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8DB1EA9AA7200BFD2FD /* UIApplication+WTK.m */; };
+		9BFDA8ED1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8DD1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m */; };
+		9BFDA8EE1EA9AA7200BFD2FD /* WTKAnimationDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8DF1EA9AA7200BFD2FD /* WTKAnimationDefault.m */; };
+		9BFDA8EF1EA9AA7200BFD2FD /* WTKAnimationDiffNavi.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8E11EA9AA7200BFD2FD /* WTKAnimationDiffNavi.m */; };
+		9BFDA8F01EA9AA7200BFD2FD /* WTKAnimationKuGou.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8E31EA9AA7200BFD2FD /* WTKAnimationKuGou.m */; };
+		9BFDA8F11EA9AA7200BFD2FD /* WTKAnimationOval.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8E51EA9AA7200BFD2FD /* WTKAnimationOval.m */; };
+		9BFDA8F21EA9AA7200BFD2FD /* WTKAnimationRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8E71EA9AA7200BFD2FD /* WTKAnimationRound.m */; };
+		9BFDA8F31EA9AA7200BFD2FD /* WTKBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8E91EA9AA7200BFD2FD /* WTKBaseAnimation.m */; };
+		9BFDA8F41EA9AA7200BFD2FD /* WTKTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8EB1EA9AA7200BFD2FD /* WTKTouchManager.m */; };
+		9BFDA8F71EA9AB1C00BFD2FD /* WTKBasedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8F61EA9AB1C00BFD2FD /* WTKBasedViewController.m */; };
+		9BFDA8FC1EA9B7D000BFD2FD /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8F91EA9B7D000BFD2FD /* RTRootNavigationController.m */; };
+		9BFDA8FD1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8FB1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.m */; };
+		9BFDA9051EA9DA7B00BFD2FD /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9001EA9DA7B00BFD2FD /* RDVTabBar.m */; };
+		9BFDA9061EA9DA7B00BFD2FD /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9021EA9DA7B00BFD2FD /* RDVTabBarController.m */; };
+		9BFDA9071EA9DA7B00BFD2FD /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9041EA9DA7B00BFD2FD /* RDVTabBarItem.m */; };
+		9BFDA90A1EA9DAA800BFD2FD /* WTK_RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9091EA9DAA800BFD2FD /* WTK_RDVTabBarController.m */; };
+		9BFDA9261EA9E07300BFD2FD /* WTKHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9251EA9E07300BFD2FD /* WTKHomeVC.m */; };
+		9BFDA9291EA9E0D600BFD2FD /* WTKCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9281EA9E0D600BFD2FD /* WTKCategoryVC.m */; };
+		9BFDA92C1EA9E0EA00BFD2FD /* WTKFoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA92B1EA9E0EA00BFD2FD /* WTKFoundVC.m */; };
+		9BFDA92F1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA92E1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m */; };
+		9BFDA9321EA9E11500BFD2FD /* WTKMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9311EA9E11500BFD2FD /* WTKMeVC.m */; };
 		C0EE2974930E9403F0542066 /* Pods_WTKWineNewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44342412BC62666CBC79871F /* Pods_WTKWineNewTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +134,48 @@
 		9BF55AB41EA7813400CF3E9F /* WTKWineNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKWineNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF55AB81EA7813400CF3E9F /* WTKWineNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKWineNewUITests.m; sourceTree = "<group>"; };
 		9BF55ABA1EA7813400CF3E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFDA8DA1EA9AA7200BFD2FD /* UIApplication+WTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+WTK.h"; sourceTree = "<group>"; };
+		9BFDA8DB1EA9AA7200BFD2FD /* UIApplication+WTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+WTK.m"; sourceTree = "<group>"; };
+		9BFDA8DC1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WTKAnimationTransitioningSnapshot.h"; sourceTree = "<group>"; };
+		9BFDA8DD1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WTKAnimationTransitioningSnapshot.m"; sourceTree = "<group>"; };
+		9BFDA8DE1EA9AA7200BFD2FD /* WTKAnimationDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationDefault.h; sourceTree = "<group>"; };
+		9BFDA8DF1EA9AA7200BFD2FD /* WTKAnimationDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationDefault.m; sourceTree = "<group>"; };
+		9BFDA8E01EA9AA7200BFD2FD /* WTKAnimationDiffNavi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationDiffNavi.h; sourceTree = "<group>"; };
+		9BFDA8E11EA9AA7200BFD2FD /* WTKAnimationDiffNavi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationDiffNavi.m; sourceTree = "<group>"; };
+		9BFDA8E21EA9AA7200BFD2FD /* WTKAnimationKuGou.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationKuGou.h; sourceTree = "<group>"; };
+		9BFDA8E31EA9AA7200BFD2FD /* WTKAnimationKuGou.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationKuGou.m; sourceTree = "<group>"; };
+		9BFDA8E41EA9AA7200BFD2FD /* WTKAnimationOval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationOval.h; sourceTree = "<group>"; };
+		9BFDA8E51EA9AA7200BFD2FD /* WTKAnimationOval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationOval.m; sourceTree = "<group>"; };
+		9BFDA8E61EA9AA7200BFD2FD /* WTKAnimationRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKAnimationRound.h; sourceTree = "<group>"; };
+		9BFDA8E71EA9AA7200BFD2FD /* WTKAnimationRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKAnimationRound.m; sourceTree = "<group>"; };
+		9BFDA8E81EA9AA7200BFD2FD /* WTKBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKBaseAnimation.h; sourceTree = "<group>"; };
+		9BFDA8E91EA9AA7200BFD2FD /* WTKBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKBaseAnimation.m; sourceTree = "<group>"; };
+		9BFDA8EA1EA9AA7200BFD2FD /* WTKTouchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKTouchManager.h; sourceTree = "<group>"; };
+		9BFDA8EB1EA9AA7200BFD2FD /* WTKTouchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKTouchManager.m; sourceTree = "<group>"; };
+		9BFDA8F51EA9AB1C00BFD2FD /* WTKBasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKBasedViewController.h; sourceTree = "<group>"; };
+		9BFDA8F61EA9AB1C00BFD2FD /* WTKBasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKBasedViewController.m; sourceTree = "<group>"; };
+		9BFDA8F81EA9B7D000BFD2FD /* RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTRootNavigationController.h; sourceTree = "<group>"; };
+		9BFDA8F91EA9B7D000BFD2FD /* RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTRootNavigationController.m; sourceTree = "<group>"; };
+		9BFDA8FA1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		9BFDA8FB1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		9BFDA8FF1EA9DA7B00BFD2FD /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		9BFDA9001EA9DA7B00BFD2FD /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		9BFDA9011EA9DA7B00BFD2FD /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		9BFDA9021EA9DA7B00BFD2FD /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		9BFDA9031EA9DA7B00BFD2FD /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		9BFDA9041EA9DA7B00BFD2FD /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		9BFDA9081EA9DAA800BFD2FD /* WTK_RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTK_RDVTabBarController.h; sourceTree = "<group>"; };
+		9BFDA9091EA9DAA800BFD2FD /* WTK_RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTK_RDVTabBarController.m; sourceTree = "<group>"; };
+		9BFDA9241EA9E07300BFD2FD /* WTKHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKHomeVC.h; sourceTree = "<group>"; };
+		9BFDA9251EA9E07300BFD2FD /* WTKHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKHomeVC.m; sourceTree = "<group>"; };
+		9BFDA9271EA9E0D600BFD2FD /* WTKCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKCategoryVC.h; sourceTree = "<group>"; };
+		9BFDA9281EA9E0D600BFD2FD /* WTKCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKCategoryVC.m; sourceTree = "<group>"; };
+		9BFDA92A1EA9E0EA00BFD2FD /* WTKFoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKFoundVC.h; sourceTree = "<group>"; };
+		9BFDA92B1EA9E0EA00BFD2FD /* WTKFoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKFoundVC.m; sourceTree = "<group>"; };
+		9BFDA92D1EA9E0FF00BFD2FD /* WTKShoppingCarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKShoppingCarVC.h; sourceTree = "<group>"; };
+		9BFDA92E1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKShoppingCarVC.m; sourceTree = "<group>"; };
+		9BFDA9301EA9E11500BFD2FD /* WTKMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKMeVC.h; sourceTree = "<group>"; };
+		9BFDA9311EA9E11500BFD2FD /* WTKMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKMeVC.m; sourceTree = "<group>"; };
 		B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D218164F20E75014410D774B /* Pods-WTKWineNewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewUITests/Pods-WTKWineNewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3866D0A4AD1DC0FC48EF24C /* Pods-WTKWineNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewTests/Pods-WTKWineNewTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +235,8 @@
 		9BD383581EA8B0DB00CE33FB /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				9BFDA8FE1EA9DA7B00BFD2FD /* RDVTabBarController */,
+				9BFDA8D91EA9AA7200BFD2FD /* WTKTransition */,
 				9BD383591EA8B10E00CE33FB /* IQKeyBoardManager */,
 			);
 			path = Vendor;
@@ -265,6 +330,11 @@
 		9BD3838C1EA8B25300CE33FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9BFDA90B1EA9DD2700BFD2FD /* Home(首页) */,
+				9BFDA9101EA9DD3100BFD2FD /* category(分类) */,
+				9BFDA9151EA9DFAE00BFD2FD /* disCover(发现) */,
+				9BFDA91A1EA9E03700BFD2FD /* Shop(购物车) */,
+				9BFDA91F1EA9E04000BFD2FD /* Mine(我的) */,
 				9BD383B21EA8BDD700CE33FB /* Based */,
 				9BD3838D1EA8B28900CE33FB /* Util */,
 			);
@@ -285,8 +355,16 @@
 			children = (
 				9BD383B31EA8BE1700CE33FB /* WTKTabBarController.h */,
 				9BD383B41EA8BE1700CE33FB /* WTKTabBarController.m */,
+				9BFDA9081EA9DAA800BFD2FD /* WTK_RDVTabBarController.h */,
+				9BFDA9091EA9DAA800BFD2FD /* WTK_RDVTabBarController.m */,
 				9BD383B61EA8BF5B00CE33FB /* WTKNavigationController.h */,
 				9BD383B71EA8BF5B00CE33FB /* WTKNavigationController.m */,
+				9BFDA8F51EA9AB1C00BFD2FD /* WTKBasedViewController.h */,
+				9BFDA8F61EA9AB1C00BFD2FD /* WTKBasedViewController.m */,
+				9BFDA8F81EA9B7D000BFD2FD /* RTRootNavigationController.h */,
+				9BFDA8F91EA9B7D000BFD2FD /* RTRootNavigationController.m */,
+				9BFDA8FA1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.h */,
+				9BFDA8FB1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.m */,
 			);
 			path = Based;
 			sourceTree = "<group>";
@@ -355,6 +433,249 @@
 				9BF55ABA1EA7813400CF3E9F /* Info.plist */,
 			);
 			path = WTKWineNewUITests;
+			sourceTree = "<group>";
+		};
+		9BFDA8D91EA9AA7200BFD2FD /* WTKTransition */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA8DA1EA9AA7200BFD2FD /* UIApplication+WTK.h */,
+				9BFDA8DB1EA9AA7200BFD2FD /* UIApplication+WTK.m */,
+				9BFDA8DC1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.h */,
+				9BFDA8DD1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m */,
+				9BFDA8DE1EA9AA7200BFD2FD /* WTKAnimationDefault.h */,
+				9BFDA8DF1EA9AA7200BFD2FD /* WTKAnimationDefault.m */,
+				9BFDA8E01EA9AA7200BFD2FD /* WTKAnimationDiffNavi.h */,
+				9BFDA8E11EA9AA7200BFD2FD /* WTKAnimationDiffNavi.m */,
+				9BFDA8E21EA9AA7200BFD2FD /* WTKAnimationKuGou.h */,
+				9BFDA8E31EA9AA7200BFD2FD /* WTKAnimationKuGou.m */,
+				9BFDA8E41EA9AA7200BFD2FD /* WTKAnimationOval.h */,
+				9BFDA8E51EA9AA7200BFD2FD /* WTKAnimationOval.m */,
+				9BFDA8E61EA9AA7200BFD2FD /* WTKAnimationRound.h */,
+				9BFDA8E71EA9AA7200BFD2FD /* WTKAnimationRound.m */,
+				9BFDA8E81EA9AA7200BFD2FD /* WTKBaseAnimation.h */,
+				9BFDA8E91EA9AA7200BFD2FD /* WTKBaseAnimation.m */,
+				9BFDA8EA1EA9AA7200BFD2FD /* WTKTouchManager.h */,
+				9BFDA8EB1EA9AA7200BFD2FD /* WTKTouchManager.m */,
+			);
+			path = WTKTransition;
+			sourceTree = "<group>";
+		};
+		9BFDA8FE1EA9DA7B00BFD2FD /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA8FF1EA9DA7B00BFD2FD /* RDVTabBar.h */,
+				9BFDA9001EA9DA7B00BFD2FD /* RDVTabBar.m */,
+				9BFDA9011EA9DA7B00BFD2FD /* RDVTabBarController.h */,
+				9BFDA9021EA9DA7B00BFD2FD /* RDVTabBarController.m */,
+				9BFDA9031EA9DA7B00BFD2FD /* RDVTabBarItem.h */,
+				9BFDA9041EA9DA7B00BFD2FD /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		9BFDA90B1EA9DD2700BFD2FD /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA90C1EA9DD2700BFD2FD /* Model */,
+				9BFDA90D1EA9DD2700BFD2FD /* View */,
+				9BFDA90E1EA9DD2700BFD2FD /* ViewControll */,
+				9BFDA90F1EA9DD2700BFD2FD /* ViewModel */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		9BFDA90C1EA9DD2700BFD2FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BFDA90D1EA9DD2700BFD2FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDA90E1EA9DD2700BFD2FD /* ViewControll */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA9241EA9E07300BFD2FD /* WTKHomeVC.h */,
+				9BFDA9251EA9E07300BFD2FD /* WTKHomeVC.m */,
+			);
+			path = ViewControll;
+			sourceTree = "<group>";
+		};
+		9BFDA90F1EA9DD2700BFD2FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9BFDA9101EA9DD3100BFD2FD /* category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA9111EA9DD3100BFD2FD /* Model */,
+				9BFDA9121EA9DD3100BFD2FD /* View */,
+				9BFDA9131EA9DD3100BFD2FD /* ViewControll */,
+				9BFDA9141EA9DD3100BFD2FD /* ViewModel */,
+			);
+			path = "category(分类)";
+			sourceTree = "<group>";
+		};
+		9BFDA9111EA9DD3100BFD2FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BFDA9121EA9DD3100BFD2FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDA9131EA9DD3100BFD2FD /* ViewControll */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA9271EA9E0D600BFD2FD /* WTKCategoryVC.h */,
+				9BFDA9281EA9E0D600BFD2FD /* WTKCategoryVC.m */,
+			);
+			path = ViewControll;
+			sourceTree = "<group>";
+		};
+		9BFDA9141EA9DD3100BFD2FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9BFDA9151EA9DFAE00BFD2FD /* disCover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA9161EA9DFAE00BFD2FD /* Model */,
+				9BFDA9171EA9DFAE00BFD2FD /* View */,
+				9BFDA9181EA9DFAE00BFD2FD /* ViewControll */,
+				9BFDA9191EA9DFAE00BFD2FD /* ViewModel */,
+			);
+			path = "disCover(发现)";
+			sourceTree = "<group>";
+		};
+		9BFDA9161EA9DFAE00BFD2FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BFDA9171EA9DFAE00BFD2FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDA9181EA9DFAE00BFD2FD /* ViewControll */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA92A1EA9E0EA00BFD2FD /* WTKFoundVC.h */,
+				9BFDA92B1EA9E0EA00BFD2FD /* WTKFoundVC.m */,
+			);
+			path = ViewControll;
+			sourceTree = "<group>";
+		};
+		9BFDA9191EA9DFAE00BFD2FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9BFDA91A1EA9E03700BFD2FD /* Shop(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA91B1EA9E03700BFD2FD /* Model */,
+				9BFDA91C1EA9E03700BFD2FD /* View */,
+				9BFDA91D1EA9E03700BFD2FD /* ViewControll */,
+				9BFDA91E1EA9E03700BFD2FD /* ViewModel */,
+			);
+			path = "Shop(购物车)";
+			sourceTree = "<group>";
+		};
+		9BFDA91B1EA9E03700BFD2FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BFDA91C1EA9E03700BFD2FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDA91D1EA9E03700BFD2FD /* ViewControll */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA92D1EA9E0FF00BFD2FD /* WTKShoppingCarVC.h */,
+				9BFDA92E1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m */,
+			);
+			path = ViewControll;
+			sourceTree = "<group>";
+		};
+		9BFDA91E1EA9E03700BFD2FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9BFDA91F1EA9E04000BFD2FD /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA9201EA9E04000BFD2FD /* Model */,
+				9BFDA9211EA9E04000BFD2FD /* View */,
+				9BFDA9221EA9E04000BFD2FD /* ViewControll */,
+				9BFDA9231EA9E04000BFD2FD /* ViewModel */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		9BFDA9201EA9E04000BFD2FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BFDA9211EA9E04000BFD2FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDA9221EA9E04000BFD2FD /* ViewControll */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDA9301EA9E11500BFD2FD /* WTKMeVC.h */,
+				9BFDA9311EA9E11500BFD2FD /* WTKMeVC.m */,
+			);
+			path = ViewControll;
+			sourceTree = "<group>";
+		};
+		9BFDA9231EA9E04000BFD2FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -640,24 +961,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD383831EA8B10E00CE33FB /* IQKeyboardManager.m in Sources */,
+				9BFDA8EC1EA9AA7200BFD2FD /* UIApplication+WTK.m in Sources */,
+				9BFDA92F1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m in Sources */,
+				9BFDA9291EA9E0D600BFD2FD /* WTKCategoryVC.m in Sources */,
+				9BFDA8ED1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */,
 				9BD383881EA8B10E00CE33FB /* IQTitleBarButtonItem.m in Sources */,
 				9BD383B81EA8BF5B00CE33FB /* WTKNavigationController.m in Sources */,
+				9BFDA9071EA9DA7B00BFD2FD /* RDVTabBarItem.m in Sources */,
 				9BD383861EA8B10E00CE33FB /* IQTextView.m in Sources */,
+				9BFDA8F31EA9AA7200BFD2FD /* WTKBaseAnimation.m in Sources */,
+				9BFDA8FD1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.m in Sources */,
+				9BFDA8F21EA9AA7200BFD2FD /* WTKAnimationRound.m in Sources */,
+				9BFDA8EF1EA9AA7200BFD2FD /* WTKAnimationDiffNavi.m in Sources */,
+				9BFDA92C1EA9E0EA00BFD2FD /* WTKFoundVC.m in Sources */,
 				9BD3838A1EA8B10E00CE33FB /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				9BD3837E1EA8B10E00CE33FB /* IQNSArray+Sort.m in Sources */,
 				9BF55A9B1EA7813400CF3E9F /* ViewController.m in Sources */,
+				9BFDA8F41EA9AA7200BFD2FD /* WTKTouchManager.m in Sources */,
 				9BD383891EA8B10E00CE33FB /* IQToolbar.m in Sources */,
+				9BFDA90A1EA9DAA800BFD2FD /* WTK_RDVTabBarController.m in Sources */,
 				9BD383811EA8B10E00CE33FB /* IQUIViewController+Additions.m in Sources */,
+				9BFDA9321EA9E11500BFD2FD /* WTKMeVC.m in Sources */,
 				9BD383B11EA8BC0C00CE33FB /* WTKCommon.m in Sources */,
 				9BD383821EA8B10E00CE33FB /* IQUIWindow+Hierarchy.m in Sources */,
+				9BFDA8EE1EA9AA7200BFD2FD /* WTKAnimationDefault.m in Sources */,
+				9BFDA8F01EA9AA7200BFD2FD /* WTKAnimationKuGou.m in Sources */,
+				9BFDA9261EA9E07300BFD2FD /* WTKHomeVC.m in Sources */,
 				9BD383841EA8B10E00CE33FB /* IQKeyboardReturnKeyHandler.m in Sources */,
 				9BD383871EA8B10E00CE33FB /* IQBarButtonItem.m in Sources */,
 				9BF55A981EA7813400CF3E9F /* AppDelegate.m in Sources */,
 				9BF55A951EA7813400CF3E9F /* main.m in Sources */,
 				9BD383B51EA8BE1700CE33FB /* WTKTabBarController.m in Sources */,
+				9BFDA8F71EA9AB1C00BFD2FD /* WTKBasedViewController.m in Sources */,
 				9BD383801EA8B10E00CE33FB /* IQUIView+Hierarchy.m in Sources */,
 				9BD3837F1EA8B10E00CE33FB /* IQUITextFieldView+Additions.m in Sources */,
+				9BFDA9061EA9DA7B00BFD2FD /* RDVTabBarController.m in Sources */,
+				9BFDA8F11EA9AA7200BFD2FD /* WTKAnimationOval.m in Sources */,
 				9BD383851EA8B10E00CE33FB /* IQSegmentedNextPrevious.m in Sources */,
+				9BFDA9051EA9DA7B00BFD2FD /* RDVTabBar.m in Sources */,
+				9BFDA8FC1EA9B7D000BFD2FD /* RTRootNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

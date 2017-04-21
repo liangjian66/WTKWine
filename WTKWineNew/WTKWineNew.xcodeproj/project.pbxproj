@@ -55,6 +55,9 @@
 		9BFDA92C1EA9E0EA00BFD2FD /* WTKFoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA92B1EA9E0EA00BFD2FD /* WTKFoundVC.m */; };
 		9BFDA92F1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA92E1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m */; };
 		9BFDA9321EA9E11500BFD2FD /* WTKMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9311EA9E11500BFD2FD /* WTKMeVC.m */; };
+		9BFDA9351EA9F45700BFD2FD /* WTKBasedViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9341EA9F45700BFD2FD /* WTKBasedViewModel.m */; };
+		9BFDA9541EAA03F300BFD2FD /* WTKViewModelServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9531EAA03F300BFD2FD /* WTKViewModelServices.m */; };
+		9BFDA9571EAA060000BFD2FD /* WTKViewModelNavigationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9561EAA060000BFD2FD /* WTKViewModelNavigationImpl.m */; };
 		C0EE2974930E9403F0542066 /* Pods_WTKWineNewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44342412BC62666CBC79871F /* Pods_WTKWineNewTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -176,6 +179,12 @@
 		9BFDA92E1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKShoppingCarVC.m; sourceTree = "<group>"; };
 		9BFDA9301EA9E11500BFD2FD /* WTKMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKMeVC.h; sourceTree = "<group>"; };
 		9BFDA9311EA9E11500BFD2FD /* WTKMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKMeVC.m; sourceTree = "<group>"; };
+		9BFDA9331EA9F45700BFD2FD /* WTKBasedViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKBasedViewModel.h; sourceTree = "<group>"; };
+		9BFDA9341EA9F45700BFD2FD /* WTKBasedViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKBasedViewModel.m; sourceTree = "<group>"; };
+		9BFDA9521EAA03F300BFD2FD /* WTKViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKViewModelServices.h; sourceTree = "<group>"; };
+		9BFDA9531EAA03F300BFD2FD /* WTKViewModelServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKViewModelServices.m; sourceTree = "<group>"; };
+		9BFDA9551EAA060000BFD2FD /* WTKViewModelNavigationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKViewModelNavigationImpl.h; sourceTree = "<group>"; };
+		9BFDA9561EAA060000BFD2FD /* WTKViewModelNavigationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKViewModelNavigationImpl.m; sourceTree = "<group>"; };
 		B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D218164F20E75014410D774B /* Pods-WTKWineNewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewUITests/Pods-WTKWineNewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3866D0A4AD1DC0FC48EF24C /* Pods-WTKWineNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewTests/Pods-WTKWineNewTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -361,6 +370,12 @@
 				9BD383B71EA8BF5B00CE33FB /* WTKNavigationController.m */,
 				9BFDA8F51EA9AB1C00BFD2FD /* WTKBasedViewController.h */,
 				9BFDA8F61EA9AB1C00BFD2FD /* WTKBasedViewController.m */,
+				9BFDA9331EA9F45700BFD2FD /* WTKBasedViewModel.h */,
+				9BFDA9341EA9F45700BFD2FD /* WTKBasedViewModel.m */,
+				9BFDA9521EAA03F300BFD2FD /* WTKViewModelServices.h */,
+				9BFDA9531EAA03F300BFD2FD /* WTKViewModelServices.m */,
+				9BFDA9551EAA060000BFD2FD /* WTKViewModelNavigationImpl.h */,
+				9BFDA9561EAA060000BFD2FD /* WTKViewModelNavigationImpl.m */,
 				9BFDA8F81EA9B7D000BFD2FD /* RTRootNavigationController.h */,
 				9BFDA8F91EA9B7D000BFD2FD /* RTRootNavigationController.m */,
 				9BFDA8FA1EA9B7D000BFD2FD /* UIViewController+RTRootNavigationController.h */,
@@ -967,6 +982,7 @@
 				9BFDA8ED1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */,
 				9BD383881EA8B10E00CE33FB /* IQTitleBarButtonItem.m in Sources */,
 				9BD383B81EA8BF5B00CE33FB /* WTKNavigationController.m in Sources */,
+				9BFDA9351EA9F45700BFD2FD /* WTKBasedViewModel.m in Sources */,
 				9BFDA9071EA9DA7B00BFD2FD /* RDVTabBarItem.m in Sources */,
 				9BD383861EA8B10E00CE33FB /* IQTextView.m in Sources */,
 				9BFDA8F31EA9AA7200BFD2FD /* WTKBaseAnimation.m in Sources */,
@@ -982,11 +998,13 @@
 				9BFDA90A1EA9DAA800BFD2FD /* WTK_RDVTabBarController.m in Sources */,
 				9BD383811EA8B10E00CE33FB /* IQUIViewController+Additions.m in Sources */,
 				9BFDA9321EA9E11500BFD2FD /* WTKMeVC.m in Sources */,
+				9BFDA9541EAA03F300BFD2FD /* WTKViewModelServices.m in Sources */,
 				9BD383B11EA8BC0C00CE33FB /* WTKCommon.m in Sources */,
 				9BD383821EA8B10E00CE33FB /* IQUIWindow+Hierarchy.m in Sources */,
 				9BFDA8EE1EA9AA7200BFD2FD /* WTKAnimationDefault.m in Sources */,
 				9BFDA8F01EA9AA7200BFD2FD /* WTKAnimationKuGou.m in Sources */,
 				9BFDA9261EA9E07300BFD2FD /* WTKHomeVC.m in Sources */,
+				9BFDA9571EAA060000BFD2FD /* WTKViewModelNavigationImpl.m in Sources */,
 				9BD383841EA8B10E00CE33FB /* IQKeyboardReturnKeyHandler.m in Sources */,
 				9BD383871EA8B10E00CE33FB /* IQBarButtonItem.m in Sources */,
 				9BF55A981EA7813400CF3E9F /* AppDelegate.m in Sources */,

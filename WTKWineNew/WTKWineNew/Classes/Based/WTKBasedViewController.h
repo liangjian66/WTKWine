@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WTKCommon.h"
+#import "WTKBasedViewModel.h"
 @interface WTKBasedViewController : UIViewController
+@property(nonatomic,strong,readonly)WTKBasedViewModel *viewModel;
+
 @property(nonatomic,strong,readonly)UIPercentDrivenInteractiveTransition *interactivePopTransition;
+- (instancetype)initWithViewModel:(WTKBasedViewModel *)viewModel;
 
 @end

@@ -7,7 +7,13 @@
 //
 
 #import "WTKTabBarController.h"
-
+#import "WTKNavigationController.h"
+#import "WTKHomeVC.h"
+#import "WTKCategoryVC.h"
+#import "WTKFoundVC.h"
+#import "WTKShoppingCarVC.h"
+#import "WTKMeVC.h"
+#import "WTKCommon.h"
 @interface WTKTabBarController ()
 
 @end
@@ -16,22 +22,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self addChileVC];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+- (void)addChileVC
+{
+    
+    WTKHomeVC *homeVC           = [[WTKHomeVC alloc]initWithViewModel:[[WTKBasedViewModel alloc]initWithService:nil params:@{@"title":@"首页"}]];
+    WTKNavigationController *nav1 = [self setChildVC:homeVC title:@"首页" imageName:@"homeNormal" withSelectedName:@"homeHight"];
+    
+    WTKCategoryVC *cateVC       = [[WTKCategoryVC alloc]initWithViewModel:[[WTKBasedViewModel alloc]initWithService:nil params:@{@"title":@"分类"}]];
+    
+    WTKNavigationController *nav2 =  [self setChildVC:cateVC title:@"分类" imageName:@"categoryNormal" withSelectedName:@"categoryHight"];
+    
+    WTKFoundVC *foundVC         = [[WTKFoundVC alloc]initWithViewModel:[[WTKBasedViewModel alloc]initWithService:nil params:@{@"title":@"发现"}]];
+    WTKNavigationController *nav3 =   [self setChildVC:foundVC title:@"发现" imageName:@"foundNormal" withSelectedName:@"foundHight"];
+    
+    WTKShoppingCarVC *shopVC    = [[WTKShoppingCarVC alloc]initWithViewModel:[[WTKBasedViewModel alloc]initWithService:nil params:@{@"title":@"购物车"}]];
+    WTKNavigationController *nav4 =  [self setChildVC:shopVC title:@"购物车" imageName:@"carNormal" withSelectedName:@"carHight"];
+    
+    WTKMeVC *meVC               = [[WTKMeVC alloc]initWithViewModel:[[WTKBasedViewModel alloc]initWithService:nil params:@{@"title":@"我的"}]];
+    WTKNavigationController *nav5 =  [self setChildVC:meVC title:@"我的" imageName:@"meNoraml" withSelectedName:@"meHight"];
+    
+    self.viewControllers = @[nav1,nav2,nav3,nav4,nav5];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (WTKNavigationController *)setChildVC:(UIViewController *)vc title:(NSString *)title imageName:(NSString *)imgName withSelectedName:(NSString *)selectedName
+{
+    vc.title                = title;
+    vc.tabBarItem.image     = [UIImage imageNamed:imgName];
+    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedName];
+    
+    vc.tabBarController.tabBar.tintColor   = THEME_COLOR;
+    
+    NSDictionary *dic       = @{NSForegroundColorAttributeName:BLACK_COLOR,NSFontAttributeName:[UIFont systemFontOfSize:12]};
+    [vc.tabBarItem setTitleTextAttributes:dic forState:UIControlStateNormal];
+    
+    NSDictionary *selectDic = @{NSForegroundColorAttributeName:THEME_COLOR,NSFontAttributeName:[UIFont systemFontOfSize:12]};
+    [vc.tabBarItem setTitleTextAttributes:selectDic forState:UIControlStateSelected];
+    
+    WTKNavigationController *nav = [[WTKNavigationController alloc]initWithRootViewController:vc];
+    
+    return nav;  //
 }
-*/
 
 @end

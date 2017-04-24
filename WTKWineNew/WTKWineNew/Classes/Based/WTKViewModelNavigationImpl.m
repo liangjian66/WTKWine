@@ -15,6 +15,7 @@
 @implementation WTKViewModelNavigationImpl
 - (instancetype)initWithNavigationController:(UINavigationController *)navi
 {
+    //
     self = [super init];
     if (self)
     {

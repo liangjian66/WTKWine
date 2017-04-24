@@ -22,6 +22,7 @@
 
 
 #import "WTKBasedViewController.h"
+#import "WTKColorHeader.h"
 
 ///SVP
 #define SHOW_SVP(title) \

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WTKCommon.h"
+#import "WTKTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     //    设置键盘
     IQKeyboardManager *manager          = [IQKeyboardManager sharedManager];
@@ -24,9 +28,23 @@
     manager.enableAutoToolbar           = NO;
     
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    [self changeRootViewController];
     return YES;
 }
 
+
+- (void)changeRootViewController
+{
+//    UIWindow *window                    = [[UIApplication sharedApplication].delegate window];
+    WTKTabBarController *tabbarC        = [[WTKTabBarController alloc]init];
+
+    tabbarC.tabBar.tintColor            = THEME_COLOR;
+//    self.window.rootViewController           = tabbarC;
+    [self.window makeKeyAndVisible];
+    [self.window setRootViewController:tabbarC];
+    
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -28,8 +28,6 @@
 		9BD383B81EA8BF5B00CE33FB /* WTKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD383B71EA8BF5B00CE33FB /* WTKNavigationController.m */; };
 		9BF55A951EA7813400CF3E9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A941EA7813400CF3E9F /* main.m */; };
 		9BF55A981EA7813400CF3E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A971EA7813400CF3E9F /* AppDelegate.m */; };
-		9BF55A9B1EA7813400CF3E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A9A1EA7813400CF3E9F /* ViewController.m */; };
-		9BF55A9E1EA7813400CF3E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF55A9C1EA7813400CF3E9F /* Main.storyboard */; };
 		9BF55AA01EA7813400CF3E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF55A9F1EA7813400CF3E9F /* Assets.xcassets */; };
 		9BF55AA31EA7813400CF3E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF55AA11EA7813400CF3E9F /* LaunchScreen.storyboard */; };
 		9BF55AAE1EA7813400CF3E9F /* WTKWineNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55AAD1EA7813400CF3E9F /* WTKWineNewTests.m */; };
@@ -125,9 +123,6 @@
 		9BF55A941EA7813400CF3E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF55A961EA7813400CF3E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BF55A971EA7813400CF3E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BF55A991EA7813400CF3E9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9BF55A9A1EA7813400CF3E9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9BF55A9D1EA7813400CF3E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BF55A9F1EA7813400CF3E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BF55AA21EA7813400CF3E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BF55AA41EA7813400CF3E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -185,6 +180,7 @@
 		9BFDA9531EAA03F300BFD2FD /* WTKViewModelServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKViewModelServices.m; sourceTree = "<group>"; };
 		9BFDA9551EAA060000BFD2FD /* WTKViewModelNavigationImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKViewModelNavigationImpl.h; sourceTree = "<group>"; };
 		9BFDA9561EAA060000BFD2FD /* WTKViewModelNavigationImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKViewModelNavigationImpl.m; sourceTree = "<group>"; };
+		9BFDA9741EADEAF100BFD2FD /* WTKColorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKColorHeader.h; sourceTree = "<group>"; };
 		B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D218164F20E75014410D774B /* Pods-WTKWineNewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewUITests/Pods-WTKWineNewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3866D0A4AD1DC0FC48EF24C /* Pods-WTKWineNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewTests/Pods-WTKWineNewTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -355,6 +351,7 @@
 			children = (
 				9BD383AF1EA8BC0C00CE33FB /* WTKCommon.h */,
 				9BD383B01EA8BC0C00CE33FB /* WTKCommon.m */,
+				9BFDA9741EADEAF100BFD2FD /* WTKColorHeader.h */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -413,9 +410,6 @@
 				9BD383581EA8B0DB00CE33FB /* Vendor */,
 				9BF55A961EA7813400CF3E9F /* AppDelegate.h */,
 				9BF55A971EA7813400CF3E9F /* AppDelegate.m */,
-				9BF55A991EA7813400CF3E9F /* ViewController.h */,
-				9BF55A9A1EA7813400CF3E9F /* ViewController.m */,
-				9BF55A9C1EA7813400CF3E9F /* Main.storyboard */,
 				9BF55A9F1EA7813400CF3E9F /* Assets.xcassets */,
 				9BF55AA11EA7813400CF3E9F /* LaunchScreen.storyboard */,
 				9BF55AA41EA7813400CF3E9F /* Info.plist */,
@@ -812,7 +806,6 @@
 				9BF55AA31EA7813400CF3E9F /* LaunchScreen.storyboard in Resources */,
 				9BF55AA01EA7813400CF3E9F /* Assets.xcassets in Resources */,
 				9BD3838B1EA8B10E00CE33FB /* IQKeyboardManager.bundle in Resources */,
-				9BF55A9E1EA7813400CF3E9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -992,7 +985,6 @@
 				9BFDA92C1EA9E0EA00BFD2FD /* WTKFoundVC.m in Sources */,
 				9BD3838A1EA8B10E00CE33FB /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				9BD3837E1EA8B10E00CE33FB /* IQNSArray+Sort.m in Sources */,
-				9BF55A9B1EA7813400CF3E9F /* ViewController.m in Sources */,
 				9BFDA8F41EA9AA7200BFD2FD /* WTKTouchManager.m in Sources */,
 				9BD383891EA8B10E00CE33FB /* IQToolbar.m in Sources */,
 				9BFDA90A1EA9DAA800BFD2FD /* WTK_RDVTabBarController.m in Sources */,
@@ -1053,14 +1045,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9BF55A9C1EA7813400CF3E9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BF55A9D1EA7813400CF3E9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BF55AA11EA7813400CF3E9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

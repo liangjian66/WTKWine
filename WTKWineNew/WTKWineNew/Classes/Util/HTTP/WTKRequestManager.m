@@ -9,7 +9,32 @@
 #import "WTKRequestManager.h"
 
 @implementation WTKRequestManager
++ (RACSignal *)postArrayDataWithURL:(NSString *)urlString
+                       withpramater:(NSDictionary *)paremater
+{
+    CGFloat time = arc4random()%15 / 10.0;
+    NSArray *array = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:urlString ofType:nil]];
+    
+    return [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:array];
+        [subscriber sendCompleted];
+        return nil;
+    }]delay:time];
+#warning 以后修改delay
+}
 
++ (RACSignal *)postDicDataWithURL:(NSString *)urlString
+                     withpramater:(NSDictionary *)paremater
+{
+    CGFloat time = arc4random()%15 / 10.0;
+    NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:urlString ofType:nil]];
+    return [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [subscriber sendNext:dic];
+        [subscriber sendCompleted];
+        return nil;
+    }] delay:time];
+#warning 以后修改delay
+}
 + (RACSignal *)getWithURL:(NSString *)urlString withParamater:(NSDictionary *)paramter{
     AFHTTPSessionManager  *manager = [AFHTTPSessionManager manager];
     manager.requestSerializer.timeoutInterval = 5.0;

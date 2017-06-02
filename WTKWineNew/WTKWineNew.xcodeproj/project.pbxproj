@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03C957C001092627CE7C8646 /* Pods_WTKWineNewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */; };
 		097B300DA60214779E3F1CFE /* Pods_WTKWineNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A666B90EE7EF4E046EED1 /* Pods_WTKWineNew.framework */; };
+		9B38B5721EB9E4FF00CD1ADA /* WTKGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B38B5711EB9E4FF00CD1ADA /* WTKGood.m */; };
 		9BD3837E1EA8B10E00CE33FB /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3835C1EA8B10E00CE33FB /* IQNSArray+Sort.m */; };
 		9BD3837F1EA8B10E00CE33FB /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3835E1EA8B10E00CE33FB /* IQUITextFieldView+Additions.m */; };
 		9BD383801EA8B10E00CE33FB /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD383601EA8B10E00CE33FB /* IQUIView+Hierarchy.m */; };
@@ -26,12 +27,25 @@
 		9BD383B11EA8BC0C00CE33FB /* WTKCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD383B01EA8BC0C00CE33FB /* WTKCommon.m */; };
 		9BD383B51EA8BE1700CE33FB /* WTKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD383B41EA8BE1700CE33FB /* WTKTabBarController.m */; };
 		9BD383B81EA8BF5B00CE33FB /* WTKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD383B71EA8BF5B00CE33FB /* WTKNavigationController.m */; };
+		9BEFB4EB1EE154C100329220 /* WTKCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFB4EA1EE154C100329220 /* WTKCategoryVC.m */; };
+		9BF03EC61EB869C300F90B6F /* HomeData in Resources */ = {isa = PBXBuildFile; fileRef = 9BF03EC51EB869C300F90B6F /* HomeData */; };
+		9BF03EC81EB869DA00F90B6F /* HomeHead in Resources */ = {isa = PBXBuildFile; fileRef = 9BF03EC71EB869DA00F90B6F /* HomeHead */; };
 		9BF55A951EA7813400CF3E9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A941EA7813400CF3E9F /* main.m */; };
 		9BF55A981EA7813400CF3E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55A971EA7813400CF3E9F /* AppDelegate.m */; };
 		9BF55AA01EA7813400CF3E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF55A9F1EA7813400CF3E9F /* Assets.xcassets */; };
 		9BF55AA31EA7813400CF3E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF55AA11EA7813400CF3E9F /* LaunchScreen.storyboard */; };
 		9BF55AAE1EA7813400CF3E9F /* WTKWineNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55AAD1EA7813400CF3E9F /* WTKWineNewTests.m */; };
 		9BF55AB91EA7813400CF3E9F /* WTKWineNewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF55AB81EA7813400CF3E9F /* WTKWineNewUITests.m */; };
+		9BF5F0DC1EBB000E005BBC48 /* WTKHomeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0DB1EBB000E005BBC48 /* WTKHomeCollectionView.m */; };
+		9BF5F0DF1EBB04AC005BBC48 /* WTKHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0DE1EBB04AC005BBC48 /* WTKHomeCell.m */; };
+		9BF5F0E21EBB0500005BBC48 /* WTKHomeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0E11EBB0500005BBC48 /* WTKHomeHeadView.m */; };
+		9BF5F0E51EBB28C2005BBC48 /* WTKGoodManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0E41EBB28C2005BBC48 /* WTKGoodManagerView.m */; };
+		9BF5F0FC1EBB3420005BBC48 /* UIButton+WTKBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0F11EBB3420005BBC48 /* UIButton+WTKBtn.m */; };
+		9BF5F0FD1EBB3420005BBC48 /* UIColor+WTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0F31EBB3420005BBC48 /* UIColor+WTK.m */; };
+		9BF5F0FE1EBB3420005BBC48 /* UIFont+WTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0F51EBB3420005BBC48 /* UIFont+WTK.m */; };
+		9BF5F0FF1EBB3420005BBC48 /* UIImage+WTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0F71EBB3420005BBC48 /* UIImage+WTK.m */; };
+		9BF5F1001EBB3420005BBC48 /* UILabel+WTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0F91EBB3420005BBC48 /* UILabel+WTK.m */; };
+		9BF5F1011EBB3420005BBC48 /* UITextField+WTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5F0FB1EBB3420005BBC48 /* UITextField+WTK.m */; };
 		9BFDA8EC1EA9AA7200BFD2FD /* UIApplication+WTK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8DB1EA9AA7200BFD2FD /* UIApplication+WTK.m */; };
 		9BFDA8ED1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8DD1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m */; };
 		9BFDA8EE1EA9AA7200BFD2FD /* WTKAnimationDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA8DF1EA9AA7200BFD2FD /* WTKAnimationDefault.m */; };
@@ -49,7 +63,6 @@
 		9BFDA9071EA9DA7B00BFD2FD /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9041EA9DA7B00BFD2FD /* RDVTabBarItem.m */; };
 		9BFDA90A1EA9DAA800BFD2FD /* WTK_RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9091EA9DAA800BFD2FD /* WTK_RDVTabBarController.m */; };
 		9BFDA9261EA9E07300BFD2FD /* WTKHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9251EA9E07300BFD2FD /* WTKHomeVC.m */; };
-		9BFDA9291EA9E0D600BFD2FD /* WTKCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9281EA9E0D600BFD2FD /* WTKCategoryVC.m */; };
 		9BFDA92C1EA9E0EA00BFD2FD /* WTKFoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA92B1EA9E0EA00BFD2FD /* WTKFoundVC.m */; };
 		9BFDA92F1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA92E1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m */; };
 		9BFDA9321EA9E11500BFD2FD /* WTKMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA9311EA9E11500BFD2FD /* WTKMeVC.m */; };
@@ -85,6 +98,8 @@
 		44342412BC62666CBC79871F /* Pods_WTKWineNewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3A666B90EE7EF4E046EED1 /* Pods_WTKWineNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F015573FE72969E3714826 /* Pods-WTKWineNewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewUITests/Pods-WTKWineNewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B38B5701EB9E4FF00CD1ADA /* WTKGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKGood.h; sourceTree = "<group>"; };
+		9B38B5711EB9E4FF00CD1ADA /* WTKGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKGood.m; sourceTree = "<group>"; };
 		9BD3835B1EA8B10E00CE33FB /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
 		9BD3835C1EA8B10E00CE33FB /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
 		9BD3835D1EA8B10E00CE33FB /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
@@ -121,6 +136,11 @@
 		9BD383B41EA8BE1700CE33FB /* WTKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKTabBarController.m; sourceTree = "<group>"; };
 		9BD383B61EA8BF5B00CE33FB /* WTKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKNavigationController.h; sourceTree = "<group>"; };
 		9BD383B71EA8BF5B00CE33FB /* WTKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKNavigationController.m; sourceTree = "<group>"; };
+		9BEFB4E91EE154C100329220 /* WTKCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKCategoryVC.h; sourceTree = "<group>"; };
+		9BEFB4EA1EE154C100329220 /* WTKCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKCategoryVC.m; sourceTree = "<group>"; };
+		9BF03EC31EB868AC00F90B6F /* WTKURLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKURLMacro.h; sourceTree = "<group>"; };
+		9BF03EC51EB869C300F90B6F /* HomeData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeData; sourceTree = "<group>"; };
+		9BF03EC71EB869DA00F90B6F /* HomeHead */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeHead; sourceTree = "<group>"; };
 		9BF55A901EA7813400CF3E9F /* WTKWineNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKWineNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF55A941EA7813400CF3E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BF55A961EA7813400CF3E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,6 +154,27 @@
 		9BF55AB41EA7813400CF3E9F /* WTKWineNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKWineNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF55AB81EA7813400CF3E9F /* WTKWineNewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTKWineNewUITests.m; sourceTree = "<group>"; };
 		9BF55ABA1EA7813400CF3E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF5F0DA1EBB000E005BBC48 /* WTKHomeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKHomeCollectionView.h; sourceTree = "<group>"; };
+		9BF5F0DB1EBB000E005BBC48 /* WTKHomeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKHomeCollectionView.m; sourceTree = "<group>"; };
+		9BF5F0DD1EBB04AC005BBC48 /* WTKHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKHomeCell.h; sourceTree = "<group>"; };
+		9BF5F0DE1EBB04AC005BBC48 /* WTKHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKHomeCell.m; sourceTree = "<group>"; };
+		9BF5F0E01EBB0500005BBC48 /* WTKHomeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKHomeHeadView.h; sourceTree = "<group>"; };
+		9BF5F0E11EBB0500005BBC48 /* WTKHomeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKHomeHeadView.m; sourceTree = "<group>"; };
+		9BF5F0E31EBB28C2005BBC48 /* WTKGoodManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKGoodManagerView.h; sourceTree = "<group>"; };
+		9BF5F0E41EBB28C2005BBC48 /* WTKGoodManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKGoodManagerView.m; sourceTree = "<group>"; };
+		9BF5F0E61EBB2EEA005BBC48 /* WTKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKMacro.h; sourceTree = "<group>"; };
+		9BF5F0F01EBB3420005BBC48 /* UIButton+WTKBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WTKBtn.h"; sourceTree = "<group>"; };
+		9BF5F0F11EBB3420005BBC48 /* UIButton+WTKBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WTKBtn.m"; sourceTree = "<group>"; };
+		9BF5F0F21EBB3420005BBC48 /* UIColor+WTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WTK.h"; sourceTree = "<group>"; };
+		9BF5F0F31EBB3420005BBC48 /* UIColor+WTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WTK.m"; sourceTree = "<group>"; };
+		9BF5F0F41EBB3420005BBC48 /* UIFont+WTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+WTK.h"; sourceTree = "<group>"; };
+		9BF5F0F51EBB3420005BBC48 /* UIFont+WTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+WTK.m"; sourceTree = "<group>"; };
+		9BF5F0F61EBB3420005BBC48 /* UIImage+WTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WTK.h"; sourceTree = "<group>"; };
+		9BF5F0F71EBB3420005BBC48 /* UIImage+WTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WTK.m"; sourceTree = "<group>"; };
+		9BF5F0F81EBB3420005BBC48 /* UILabel+WTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WTK.h"; sourceTree = "<group>"; };
+		9BF5F0F91EBB3420005BBC48 /* UILabel+WTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WTK.m"; sourceTree = "<group>"; };
+		9BF5F0FA1EBB3420005BBC48 /* UITextField+WTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+WTK.h"; sourceTree = "<group>"; };
+		9BF5F0FB1EBB3420005BBC48 /* UITextField+WTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WTK.m"; sourceTree = "<group>"; };
 		9BFDA8DA1EA9AA7200BFD2FD /* UIApplication+WTK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+WTK.h"; sourceTree = "<group>"; };
 		9BFDA8DB1EA9AA7200BFD2FD /* UIApplication+WTK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+WTK.m"; sourceTree = "<group>"; };
 		9BFDA8DC1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WTKAnimationTransitioningSnapshot.h"; sourceTree = "<group>"; };
@@ -168,8 +209,6 @@
 		9BFDA9091EA9DAA800BFD2FD /* WTK_RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTK_RDVTabBarController.m; sourceTree = "<group>"; };
 		9BFDA9241EA9E07300BFD2FD /* WTKHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKHomeVC.h; sourceTree = "<group>"; };
 		9BFDA9251EA9E07300BFD2FD /* WTKHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKHomeVC.m; sourceTree = "<group>"; };
-		9BFDA9271EA9E0D600BFD2FD /* WTKCategoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKCategoryVC.h; sourceTree = "<group>"; };
-		9BFDA9281EA9E0D600BFD2FD /* WTKCategoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKCategoryVC.m; sourceTree = "<group>"; };
 		9BFDA92A1EA9E0EA00BFD2FD /* WTKFoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKFoundVC.h; sourceTree = "<group>"; };
 		9BFDA92B1EA9E0EA00BFD2FD /* WTKFoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKFoundVC.m; sourceTree = "<group>"; };
 		9BFDA92D1EA9E0FF00BFD2FD /* WTKShoppingCarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKShoppingCarVC.h; sourceTree = "<group>"; };
@@ -355,10 +394,13 @@
 		9BD3838D1EA8B28900CE33FB /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				9BF5F0EF1EBB3420005BBC48 /* Category(类别) */,
 				9BFDA9781EAE032E00BFD2FD /* HTTP */,
 				9BD383AF1EA8BC0C00CE33FB /* WTKCommon.h */,
 				9BD383B01EA8BC0C00CE33FB /* WTKCommon.m */,
 				9BFDA9741EADEAF100BFD2FD /* WTKColorHeader.h */,
+				9BF03EC31EB868AC00F90B6F /* WTKURLMacro.h */,
+				9BF5F0E61EBB2EEA005BBC48 /* WTKMacro.h */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -388,6 +430,15 @@
 			path = Based;
 			sourceTree = "<group>";
 		};
+		9BF03EC41EB8699F00F90B6F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9BF03EC51EB869C300F90B6F /* HomeData */,
+				9BF03EC71EB869DA00F90B6F /* HomeHead */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		9BF55A871EA7813400CF3E9F = {
 			isa = PBXGroup;
 			children = (
@@ -414,6 +465,7 @@
 			isa = PBXGroup;
 			children = (
 				9BD3838C1EA8B25300CE33FB /* Classes */,
+				9BF03EC41EB8699F00F90B6F /* Resource */,
 				9BD383581EA8B0DB00CE33FB /* Vendor */,
 				9BF55A961EA7813400CF3E9F /* AppDelegate.h */,
 				9BF55A971EA7813400CF3E9F /* AppDelegate.m */,
@@ -449,6 +501,25 @@
 				9BF55ABA1EA7813400CF3E9F /* Info.plist */,
 			);
 			path = WTKWineNewUITests;
+			sourceTree = "<group>";
+		};
+		9BF5F0EF1EBB3420005BBC48 /* Category(类别) */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5F0F01EBB3420005BBC48 /* UIButton+WTKBtn.h */,
+				9BF5F0F11EBB3420005BBC48 /* UIButton+WTKBtn.m */,
+				9BF5F0F21EBB3420005BBC48 /* UIColor+WTK.h */,
+				9BF5F0F31EBB3420005BBC48 /* UIColor+WTK.m */,
+				9BF5F0F41EBB3420005BBC48 /* UIFont+WTK.h */,
+				9BF5F0F51EBB3420005BBC48 /* UIFont+WTK.m */,
+				9BF5F0F61EBB3420005BBC48 /* UIImage+WTK.h */,
+				9BF5F0F71EBB3420005BBC48 /* UIImage+WTK.m */,
+				9BF5F0F81EBB3420005BBC48 /* UILabel+WTK.h */,
+				9BF5F0F91EBB3420005BBC48 /* UILabel+WTK.m */,
+				9BF5F0FA1EBB3420005BBC48 /* UITextField+WTK.h */,
+				9BF5F0FB1EBB3420005BBC48 /* UITextField+WTK.m */,
+			);
+			path = "Category(类别)";
 			sourceTree = "<group>";
 		};
 		9BFDA8D91EA9AA7200BFD2FD /* WTKTransition */ = {
@@ -503,6 +574,8 @@
 		9BFDA90C1EA9DD2700BFD2FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9B38B5701EB9E4FF00CD1ADA /* WTKGood.h */,
+				9B38B5711EB9E4FF00CD1ADA /* WTKGood.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -510,6 +583,14 @@
 		9BFDA90D1EA9DD2700BFD2FD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9BF5F0DA1EBB000E005BBC48 /* WTKHomeCollectionView.h */,
+				9BF5F0DB1EBB000E005BBC48 /* WTKHomeCollectionView.m */,
+				9BF5F0DD1EBB04AC005BBC48 /* WTKHomeCell.h */,
+				9BF5F0DE1EBB04AC005BBC48 /* WTKHomeCell.m */,
+				9BF5F0E01EBB0500005BBC48 /* WTKHomeHeadView.h */,
+				9BF5F0E11EBB0500005BBC48 /* WTKHomeHeadView.m */,
+				9BF5F0E31EBB28C2005BBC48 /* WTKGoodManagerView.h */,
+				9BF5F0E41EBB28C2005BBC48 /* WTKGoodManagerView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -560,8 +641,8 @@
 		9BFDA9131EA9DD3100BFD2FD /* ViewControll */ = {
 			isa = PBXGroup;
 			children = (
-				9BFDA9271EA9E0D600BFD2FD /* WTKCategoryVC.h */,
-				9BFDA9281EA9E0D600BFD2FD /* WTKCategoryVC.m */,
+				9BEFB4E91EE154C100329220 /* WTKCategoryVC.h */,
+				9BEFB4EA1EE154C100329220 /* WTKCategoryVC.m */,
 			);
 			path = ViewControll;
 			sourceTree = "<group>";
@@ -823,7 +904,9 @@
 			files = (
 				9BF55AA31EA7813400CF3E9F /* LaunchScreen.storyboard in Resources */,
 				9BF55AA01EA7813400CF3E9F /* Assets.xcassets in Resources */,
+				9BF03EC81EB869DA00F90B6F /* HomeHead in Resources */,
 				9BD3838B1EA8B10E00CE33FB /* IQKeyboardManager.bundle in Resources */,
+				9BF03EC61EB869C300F90B6F /* HomeData in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,13 +1069,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF5F0FF1EBB3420005BBC48 /* UIImage+WTK.m in Sources */,
+				9BF5F1001EBB3420005BBC48 /* UILabel+WTK.m in Sources */,
+				9BF5F0DC1EBB000E005BBC48 /* WTKHomeCollectionView.m in Sources */,
 				9BFDA97B1EAE033F00BFD2FD /* WTKRequestManager.m in Sources */,
 				9BD383831EA8B10E00CE33FB /* IQKeyboardManager.m in Sources */,
 				9BFDA8EC1EA9AA7200BFD2FD /* UIApplication+WTK.m in Sources */,
 				9BFDA92F1EA9E0FF00BFD2FD /* WTKShoppingCarVC.m in Sources */,
-				9BFDA9291EA9E0D600BFD2FD /* WTKCategoryVC.m in Sources */,
 				9BFDA8ED1EA9AA7200BFD2FD /* UIViewController+WTKAnimationTransitioningSnapshot.m in Sources */,
 				9BD383881EA8B10E00CE33FB /* IQTitleBarButtonItem.m in Sources */,
+				9BEFB4EB1EE154C100329220 /* WTKCategoryVC.m in Sources */,
 				9BD383B81EA8BF5B00CE33FB /* WTKNavigationController.m in Sources */,
 				9BFDA9351EA9F45700BFD2FD /* WTKBasedViewModel.m in Sources */,
 				9BFDA9071EA9DA7B00BFD2FD /* RDVTabBarItem.m in Sources */,
@@ -1007,22 +1093,30 @@
 				9BFDA9771EADFBEE00BFD2FD /* WTKHomeViewModel.m in Sources */,
 				9BFDA8F41EA9AA7200BFD2FD /* WTKTouchManager.m in Sources */,
 				9BD383891EA8B10E00CE33FB /* IQToolbar.m in Sources */,
+				9BF5F0DF1EBB04AC005BBC48 /* WTKHomeCell.m in Sources */,
 				9BFDA90A1EA9DAA800BFD2FD /* WTK_RDVTabBarController.m in Sources */,
 				9BD383811EA8B10E00CE33FB /* IQUIViewController+Additions.m in Sources */,
 				9BFDA9321EA9E11500BFD2FD /* WTKMeVC.m in Sources */,
+				9BF5F0E51EBB28C2005BBC48 /* WTKGoodManagerView.m in Sources */,
 				9BFDA9541EAA03F300BFD2FD /* WTKViewModelServices.m in Sources */,
+				9BF5F1011EBB3420005BBC48 /* UITextField+WTK.m in Sources */,
 				9BD383B11EA8BC0C00CE33FB /* WTKCommon.m in Sources */,
 				9BD383821EA8B10E00CE33FB /* IQUIWindow+Hierarchy.m in Sources */,
+				9B38B5721EB9E4FF00CD1ADA /* WTKGood.m in Sources */,
 				9BFDA8EE1EA9AA7200BFD2FD /* WTKAnimationDefault.m in Sources */,
 				9BFDA8F01EA9AA7200BFD2FD /* WTKAnimationKuGou.m in Sources */,
+				9BF5F0FC1EBB3420005BBC48 /* UIButton+WTKBtn.m in Sources */,
 				9BFDA9261EA9E07300BFD2FD /* WTKHomeVC.m in Sources */,
 				9BFDA9571EAA060000BFD2FD /* WTKViewModelNavigationImpl.m in Sources */,
 				9BD383841EA8B10E00CE33FB /* IQKeyboardReturnKeyHandler.m in Sources */,
+				9BF5F0FE1EBB3420005BBC48 /* UIFont+WTK.m in Sources */,
 				9BD383871EA8B10E00CE33FB /* IQBarButtonItem.m in Sources */,
 				9BF55A981EA7813400CF3E9F /* AppDelegate.m in Sources */,
 				9BF55A951EA7813400CF3E9F /* main.m in Sources */,
 				9BD383B51EA8BE1700CE33FB /* WTKTabBarController.m in Sources */,
 				9BFDA8F71EA9AB1C00BFD2FD /* WTKBasedViewController.m in Sources */,
+				9BF5F0E21EBB0500005BBC48 /* WTKHomeHeadView.m in Sources */,
+				9BF5F0FD1EBB3420005BBC48 /* UIColor+WTK.m in Sources */,
 				9BD383801EA8B10E00CE33FB /* IQUIView+Hierarchy.m in Sources */,
 				9BD3837F1EA8B10E00CE33FB /* IQUITextFieldView+Additions.m in Sources */,
 				9BFDA9061EA9DA7B00BFD2FD /* RDVTabBarController.m in Sources */,

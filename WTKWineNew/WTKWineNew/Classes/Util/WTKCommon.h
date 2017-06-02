@@ -23,6 +23,9 @@
 
 #import "WTKBasedViewController.h"
 #import "WTKColorHeader.h"
+#import "WTKURLMacro.h"
+#import "WTKMacro.h"
+#import "UIFont+WTK.h"
 
 ///SVP
 #define SHOW_SVP(title) \

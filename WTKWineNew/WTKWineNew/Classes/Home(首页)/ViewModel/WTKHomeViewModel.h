@@ -1,12 +1,13 @@
 //
 //  WTKHomeViewModel.h
-//  WTKWineNew
+//  WTKWineMVVM
 //
-//  Created by 韩小胜 on 17/4/24.
-//  Copyright © 2017年 WTK. All rights reserved.
+//  Created by 王同科 on 16/9/14.
+//  Copyright © 2016年 王同科. All rights reserved.
 //
 
 #import "WTKBasedViewModel.h"
+
 #import "WTKCommon.h"
 
 @interface WTKHomeViewModel : WTKBasedViewModel
@@ -29,5 +30,9 @@
 ///导航栏
 @property(nonatomic,strong)RACCommand   *naviCommand;
 
-@property(nonatomic,strong)RACSubject   *searchSubject;
+//@property(nonatomic,strong)RACSubject   *searchSubject;
+@property(nonatomic,strong)RACCommand   *searchSubject;
+
+
+
 @end

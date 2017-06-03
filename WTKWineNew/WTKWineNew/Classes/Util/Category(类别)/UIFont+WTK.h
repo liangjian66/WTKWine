@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WTKCommon.h"
 
 @interface UIFont (WTK)
 /** 设置正常字体 */

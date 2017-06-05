@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		03C957C001092627CE7C8646 /* Pods_WTKWineNewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B365C3BA26A284FB691F4D8B /* Pods_WTKWineNewUITests.framework */; };
 		097B300DA60214779E3F1CFE /* Pods_WTKWineNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A666B90EE7EF4E046EED1 /* Pods_WTKWineNew.framework */; };
+		9B309D651EE532B600FB2661 /* WTKRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B309D641EE532B600FB2661 /* WTKRequestManager.m */; };
+		9B309D791EE5559100FB2661 /* WTKHomeBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B309D781EE5559100FB2661 /* WTKHomeBannerCollectionViewCell.m */; };
+		9B309D7C1EE563E200FB2661 /* WTKNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B309D7B1EE563E200FB2661 /* WTKNetWork.m */; };
 		9B38B5721EB9E4FF00CD1ADA /* WTKGood.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B38B5711EB9E4FF00CD1ADA /* WTKGood.m */; };
 		9BD3837E1EA8B10E00CE33FB /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3835C1EA8B10E00CE33FB /* IQNSArray+Sort.m */; };
 		9BD3837F1EA8B10E00CE33FB /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3835E1EA8B10E00CE33FB /* IQUITextFieldView+Additions.m */; };
@@ -97,6 +100,12 @@
 		44342412BC62666CBC79871F /* Pods_WTKWineNewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3A666B90EE7EF4E046EED1 /* Pods_WTKWineNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTKWineNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F015573FE72969E3714826 /* Pods-WTKWineNewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTKWineNewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTKWineNewUITests/Pods-WTKWineNewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B309D631EE532B600FB2661 /* WTKRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKRequestManager.h; sourceTree = "<group>"; };
+		9B309D641EE532B600FB2661 /* WTKRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKRequestManager.m; sourceTree = "<group>"; };
+		9B309D771EE5559100FB2661 /* WTKHomeBannerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKHomeBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		9B309D781EE5559100FB2661 /* WTKHomeBannerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKHomeBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		9B309D7A1EE563E200FB2661 /* WTKNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKNetWork.h; sourceTree = "<group>"; };
+		9B309D7B1EE563E200FB2661 /* WTKNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKNetWork.m; sourceTree = "<group>"; };
 		9B38B5701EB9E4FF00CD1ADA /* WTKGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTKGood.h; sourceTree = "<group>"; };
 		9B38B5711EB9E4FF00CD1ADA /* WTKGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTKGood.m; sourceTree = "<group>"; };
 		9BD3835B1EA8B10E00CE33FB /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
@@ -279,6 +288,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9B309D621EE5328700FB2661 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9B309D7A1EE563E200FB2661 /* WTKNetWork.h */,
+				9B309D7B1EE563E200FB2661 /* WTKNetWork.m */,
+				9B309D631EE532B600FB2661 /* WTKRequestManager.h */,
+				9B309D641EE532B600FB2661 /* WTKRequestManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		9BD383581EA8B0DB00CE33FB /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +397,7 @@
 		9BD3838C1EA8B25300CE33FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9B309D621EE5328700FB2661 /* Tools */,
 				9BFDA90B1EA9DD2700BFD2FD /* Home(首页) */,
 				9BFDA9101EA9DD3100BFD2FD /* category(分类) */,
 				9BFDA9151EA9DFAE00BFD2FD /* disCover(发现) */,
@@ -585,6 +606,8 @@
 				9BF5F0DE1EBB04AC005BBC48 /* WTKHomeCell.m */,
 				9BF5F0E01EBB0500005BBC48 /* WTKHomeHeadView.h */,
 				9BF5F0E11EBB0500005BBC48 /* WTKHomeHeadView.m */,
+				9B309D771EE5559100FB2661 /* WTKHomeBannerCollectionViewCell.h */,
+				9B309D781EE5559100FB2661 /* WTKHomeBannerCollectionViewCell.m */,
 				9BF5F0E31EBB28C2005BBC48 /* WTKGoodManagerView.h */,
 				9BF5F0E41EBB28C2005BBC48 /* WTKGoodManagerView.m */,
 			);
@@ -1056,6 +1079,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B309D791EE5559100FB2661 /* WTKHomeBannerCollectionViewCell.m in Sources */,
 				9BF5F0FF1EBB3420005BBC48 /* UIImage+WTK.m in Sources */,
 				9BF5F1001EBB3420005BBC48 /* UILabel+WTK.m in Sources */,
 				9BEFB4EE1EE15A2C00329220 /* WTKHomeViewModel.m in Sources */,
@@ -1067,6 +1091,8 @@
 				9BD383881EA8B10E00CE33FB /* IQTitleBarButtonItem.m in Sources */,
 				9BEFB4EB1EE154C100329220 /* WTKCategoryVC.m in Sources */,
 				9BD383B81EA8BF5B00CE33FB /* WTKNavigationController.m in Sources */,
+				9B309D651EE532B600FB2661 /* WTKRequestManager.m in Sources */,
+				9B309D7C1EE563E200FB2661 /* WTKNetWork.m in Sources */,
 				9BFDA9351EA9F45700BFD2FD /* WTKBasedViewModel.m in Sources */,
 				9BFDA9071EA9DA7B00BFD2FD /* RDVTabBarItem.m in Sources */,
 				9BD383861EA8B10E00CE33FB /* IQTextView.m in Sources */,

@@ -26,6 +26,8 @@
 #import "WTKURLMacro.h"
 #import "WTKMacro.h"
 #import "UIFont+WTK.h"
+#import "WTKNetWork.h"
+
 
 ///SVP
 #define SHOW_SVP(title) \

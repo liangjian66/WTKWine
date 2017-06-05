@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WTKCommon.h"
+
 
 @interface WTKHomeHeadView : UICollectionReusableView
+@property(nonatomic,strong)NSMutableArray   *dataArray;
 
+@property(nonatomic,strong)RACSubject       *bannerSubject;
+
+@property(nonatomic,strong)RACSubject       *btnSubject;
 @end
